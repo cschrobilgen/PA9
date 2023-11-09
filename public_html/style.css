@@ -1,0 +1,57 @@
+* {
+    font-family: 'Calibri';
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 28px;
+    font-style: bold;
+}
+
+body {
+    background-color: rgb(100, 150, 150);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+form {
+    border-radius: 8px;
+    background-color: aquamarine;
+    text-align: center;
+    height: 10%;
+    width: 40%;
+    padding: 7.5%;
+}
+
+#label {
+    display: block;
+    margin-bottom: 2%;    
+}
+
+input {
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+button {
+    background-color: lightseagreen;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login-pane,
+#create-account-pane {
+    background-color: lightseagreen;
+    text-align: center;
+    margin: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 8px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ostaa</title>
+        <script src="app.js"></script>
+        <link rel="stylesheet" type="text/css" href="homeStyle.css">
+    </head>
+    <body>
+        <header id="top-pane">
+            <h1>Ostaa</h1>
+        </header>
+        <div id="user-gui">
+            <div id="welcome-message">${welcomeMessage}</div>
+
+            <div id="search-div">
+                <label for="item-search"></label>
+                <input type="text" id="item-search">
+                <button type="button" id="search-button" onclick="searchItems()">Search Listings</button>
+            </div>
+
+            <div id="listings-div">
+                <label for="listings"></label>
+                <button type="button" id="listings" onclick="searchListings()">View your listings<br/>
+            </div>
+                    
+            <div id="purchases-div">
+                <label for="purchases"></label>
+                <button type="button" id="purchases" onclick="searchPurchases()">View your purchases</button><br/>
+            </div>
+
+            <a href="post.html" id="post-div">
+                <label for="create-listing"></label>
+                <button type="button" id="item-search">Create a listing</button><br/>
+            </a>
+
+        </div>
+        <div id="item-list">
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+* {
+    font-family: 'Calibri';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+#user-gui {
+    padding-top: 10%;
+    position: fixed;
+    top: 15%;
+    height: 85%;
+    width: 50%;
+    background-color: lightseagreen;
+}
+
+#welcome-message,
+#search-div,
+#listings-div,
+#purchases-div,
+#post-div {
+    margin: 5%;
+}
+
+#item-list {
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    height: 85%;
+    width: 50%;
+    overflow-y: scroll;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#top-pane {
+    position: fixed;
+    height: 15%;
+    width: 100%;
+    bottom: 85%;
+    background-color: rgb(100, 150, 150);
+}
+
+button {
+    background-color: rgb(100, 150, 150);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 1%;
+}
+
+#item-list {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.list {
+    margin: 2.5%
+}

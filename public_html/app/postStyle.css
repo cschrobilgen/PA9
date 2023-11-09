@@ -1,0 +1,60 @@
+* {
+    font-family: 'Calibri';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(100, 150, 150);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5%;
+}
+
+#add-item-form {
+    background-color: aquamarine;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30%;
+    width: 40%;
+    padding: 5%;
+    border-radius: 8px;
+}
+
+#title,
+#description,
+#image,
+#price,
+#itemUser {
+    margin-bottom: 5%;
+}
+
+#go-back-pane {
+    margin: 5%;
+}
+
+#go-back {
+    padding: 1%
+}
+
+button {
+    background-color: lightseagreen;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 1%;
+}
